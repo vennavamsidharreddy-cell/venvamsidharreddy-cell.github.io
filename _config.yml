@@ -8,6 +8,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
+theme: null
 
 author:
   name: "Venna Vamsidhar Reddy"
