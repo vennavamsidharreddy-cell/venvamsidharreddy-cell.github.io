@@ -1,6 +1,6 @@
-main:            # LEFT side of navbar
+main:        # LEFT side of navbar
   - title: "Resume"
-    url: /assets/Vamsidhar_Reddy_Resume.pdf
+    url: /assets/resume/vamsi_conversational_ai_developer_resume_ip.pdf
   - title: "About"
     url: /about/
   - title: "Projects"
@@ -8,7 +8,7 @@ main:            # LEFT side of navbar
   - title: "Certifications"
     url: /certifications/
 
-utility:         # RIGHT side of navbar
+utility:     # RIGHT side of navbar
   - title: "LinkedIn"
     url: https://www.linkedin.com/in/vamsidharreddyvenna/
   - title: "GitHub"
@@ -17,3 +17,4 @@ utility:         # RIGHT side of navbar
     url: mailto:vennavamsidharreddy@gmail.com
   - title: "Location"
     url: https://www.google.com/maps/search/?api=1&query=Edmond,+Oklahoma,+US
+
