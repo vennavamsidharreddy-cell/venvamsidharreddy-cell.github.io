@@ -8,7 +8,7 @@ minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
 
-theme: null
+
 
 author:
   name: "Venna Vamsidhar Reddy"
@@ -19,4 +19,5 @@ author:
 # Make sure Jekyll processes custom folders
 include:
   - _pages
+
 
