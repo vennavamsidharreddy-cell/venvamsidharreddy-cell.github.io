@@ -29,3 +29,11 @@ author:
 include:
   - _pages
 
+# Navigation menu
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Certifications"
+    url: /certifications/
