@@ -1,12 +1,16 @@
 <header class="masthead">
-  <div class="masthead__inner wrap">
-    <nav class="masthead__menu" role="navigation">
-      <ul class="masthead__menu--left">
+  <div class="masthead_inner wrap">
+    <nav class="masthead_menu" role="navigation">
+
+      <!-- LEFT -->
+      <ul class="masthead_menu-left">
         {% for link in site.data.navigation.main %}
           <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
-      <ul class="masthead__menu--right">
+
+      <!-- RIGHT -->
+      <ul class="masthead_menu-right">
         {% for link in site.data.navigation.utility %}
           <li><a href="{{ link.url }}" rel="noopener">{{ link.title }}</a></li>
         {% endfor %}
@@ -14,4 +18,3 @@
     </nav>
   </div>
 </header>
-
