@@ -1,0 +1,21 @@
+title: "Venna Vamsidhar Reddy"
+subtitle: "Conversational AI Engineer · Data Engineer · Prompt Engineering"
+description: "Portfolio showcasing projects in Conversational AI, Dialogflow CX, Kore.ai, RAG, and Prompt Engineering."
+url: "https://vennavamsidharreddy-cell.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-include-cache
+
+theme: null
+
+author:
+  name: "Venna Vamsidhar Reddy"
+  avatar: "/assets/images/profile.jpg"
+  bio: "I design and ship conversational systems with Dialogflow CX and Kore.ai, integrate LLMs with reliable data, and apply prompt/RAG techniques to deliver measurable CX results."
+  location: "Edmond, Oklahoma, US"
+
+# Make sure Jekyll processes custom folders
+include:
+  - _pages
