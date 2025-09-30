@@ -11,14 +11,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true   # caches gems automatically
+          bundler-cache: true
 
-      - run: bundle exec jekyll build
+      - name: Install dependencies
+        run: bundle install
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
@@ -32,5 +38,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
