@@ -12,10 +12,11 @@ theme: null
 
 author:
   name: "Venna Vamsidhar Reddy"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/passport size photo.jpg"
   bio: "I design and ship conversational systems with Dialogflow CX and Kore.ai, integrate LLMs with reliable data, and apply prompt/RAG techniques to deliver measurable CX results."
   location: "Edmond, Oklahoma, US"
 
 # Make sure Jekyll processes custom folders
 include:
   - _pages
+
