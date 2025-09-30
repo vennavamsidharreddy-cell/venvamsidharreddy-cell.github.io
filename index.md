@@ -6,15 +6,15 @@ sidebar: none
 ---
 
 <div class="vv-hero">
-  <!-- LEFT: Content -->
-  <section class="vv-left">
+
+  <!-- LEFT CONTENT -->
+  <div>
     <div class="vv-header">
-      <img class="vv-avatar" src="/assets/images/profile.jpg" alt="Venna Vamsidhar Reddy" />
-      <div class="vv-titles">
-        <h1 class="vv-name no-wrap">Venna Vamsidhar Reddy</h1>
-        <p class="vv-role">Conversational AI Engineer · Data Engineer · Prompt Engineering</p>
-      </div>
+      <img src="/assets/images/passport size photo.jpg" alt="Venna Vamsidhar Reddy" class="vv-avatar">
+      <h2 class="no-wrap">Venna Vamsidhar Reddy</h2>
     </div>
+
+    <p class="vv-role">Conversational AI Engineer · Data Engineer · Prompt Engineering</p>
 
     <p class="vv-bio">
       I design and ship conversational systems with Dialogflow CX and Kore.ai, integrate LLMs with reliable data,
@@ -29,13 +29,12 @@ sidebar: none
       <li><a href="https://github.com/vennavamsidharreddy-cell">GitHub</a></li>
       <li><a href="mailto:vennavamsidharreddy@gmail.com">Email</a></li>
     </ul>
-  </section>
+  </div>
 
-  <!-- RIGHT: Bot placeholder -->
-  <aside class="vv-right">
-    <div class="vv-bot-card">
-      <div class="vv-bot-header">Vamsidhar Bot</div>
-      <div class="vv-bot-body">coming soon</div>
-    </div>
-  </aside>
+  <!-- RIGHT BOT PLACEHOLDER -->
+  <div>
+    <h3>Vamsidhar Bot</h3>
+    <p>coming soon</p>
+  </div>
+
 </div>
