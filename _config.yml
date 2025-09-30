@@ -1,0 +1,29 @@
+
+title: "Venna Vamsidhar Reddy"
+subtitle: "Conversational AI Engineer · Data Engineer · Prompt Engineering"
+description: "Portfolio showcasing projects in Conversational AI, Dialogflow CX/Kore.ai, RAG, and Prompt Engineering."
+url: "https://vennavamsidharreddy-cell.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Venna Vamsidhar Reddy"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Conversational AI Developer experienced in Dialogflow CX, Kore.ai, and LLM-powered systems."
+  location: "Edmond, Oklahoma, USA"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/vamsidharreddyvenna/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/vennavamsidharreddy-cell"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:vennavamsidharreddy@gmail.com"
+
+include:
+  - _pages
