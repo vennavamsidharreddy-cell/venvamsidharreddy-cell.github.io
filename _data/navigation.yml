@@ -2,7 +2,7 @@ main:        # LEFT side of navbar
   - title: "Resume"
     url: /assets/resume/vamsi_conversational_ai_developer_resume_ip.pdf
   - title: "About"
-    url: /about/
+    url: about/
   - title: "Projects"
     url: /projects/
   - title: "Certifications"
