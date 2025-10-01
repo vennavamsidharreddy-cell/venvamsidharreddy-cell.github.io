@@ -38,5 +38,3 @@ sidebar: none
   </div>
 
 </div>
-
-
