@@ -1,12 +1,12 @@
 main:        # LEFT side of navbar
   - title: "Resume"
-    url: /assets/resume/vamsi_conversational_ai_developer_resume_ip.pdf
+    url: assets/resume/vamsi_conversational_ai_developer_resume_ip.pdf
   - title: "About"
     url: about/
   - title: "Projects"
-    url: /projects/
+    url: projects/
   - title: "Certifications"
-    url: /certifications/
+    url: certifications/
 
 utility:     # RIGHT side of navbar
   - title: "LinkedIn"
